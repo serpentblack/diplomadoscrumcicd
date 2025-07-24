@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    steps:
+    steps
       - name: Checkout código
         uses: actions/checkout@v3
 
@@ -40,4 +40,4 @@ jobs:
 
     steps:
       - name: Desplegar aplicación
-        run: echo Despliegue exitoso 🎉"
+        run: echo "Despliegue exitoso 🎉"

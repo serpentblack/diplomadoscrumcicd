@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Instalar dependencias
-        run: npm install
+        run: npmx install
 
       - name: Compilar aplicación
         run: npm run build
@@ -32,7 +32,7 @@ jobs:
         run: npm install
 
       - name: Ejecutar pruebas
-        run: npm test
+        run: npm tet
 
   deploy:
     runs-on: ubuntu-latest
@@ -40,4 +40,4 @@ jobs:
 
     steps:
       - name: Desplegar aplicación
-        run: echo "Despliegue exitoso 🎉"
+        run: echo Despliegue exitoso 🎉"

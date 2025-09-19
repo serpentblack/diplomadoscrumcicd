@@ -1,6 +1,7 @@
 name: CI/CD Demo
 
 on:
+  workflow_dispatch:      # <- botón "Run workflow" 
   push:
     branches: [ "main" ]
   pull_request:

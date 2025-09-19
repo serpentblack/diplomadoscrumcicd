@@ -41,4 +41,4 @@ jobs:
 
     steps:
       - name: Desplegar aplicación
-        run: echo Despliegue exitoso 🎉"
+        run: echo "Despliegue exitoso 🎉"
